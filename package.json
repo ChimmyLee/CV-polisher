@@ -1,0 +1,39 @@
+{
+  "name": "cv-polisher",
+  "version": "1.0.0",
+  "private": true,
+  "description": "面向互联网校招/实习的简历打磨 Agent 工作台",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "dev": "next dev -H 127.0.0.1",
+    "build": "next build",
+    "build:smoke": "node scripts/smoke.mjs",
+    "start": "next start -H 127.0.0.1",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "docx": "^9.0.0",
+    "lucide-react": "^0.468.0",
+    "mammoth": "^1.8.0",
+    "next": "^15.0.0",
+    "openai": "^4.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-markdown": "^9.0.1",
+    "remark-gfm": "^4.0.0",
+    "unpdf": "^0.12.0",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.0.0",
+    "@types/node": "^22.10.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "postcss": "^8.4.0",
+    "tailwindcss": "^4.0.0",
+    "typescript": "^5.7.0",
+    "vitest": "^2.1.0"
+  }
+}
